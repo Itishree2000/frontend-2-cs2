@@ -1,0 +1,112 @@
+
+/* styles.css */
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff9f9;
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+}
+
+.timer-input {
+    background-color: #1c1b1b;
+    padding: 20px;
+    margin: 20px;
+    color: #fff;
+    border: 2px solid #b1a997;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.timer-input h2 {
+    margin-bottom: 10px;
+}
+
+.timer-input div {
+    margin-bottom: 10px;
+}
+
+.timer-input label {
+    font-weight: bold;
+    color: #fcf6f6; /* Slightly lighter text color for labels */
+}
+
+.timer-input input {
+    width: 50px;
+    padding: 5px;
+    border: 1px solid #f3efae;
+    border-radius: 3px;
+    color: #333; /* Darker text color for input fields */
+}
+
+/* Start with a blue button */
+.timer-input button {
+    padding: 10px 20px;
+    background-color: #007BFF; /* Blue color for the button */
+    color: #fff;
+    border: 1px solid #ebd6aa; /*  border style */
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions */
+}
+
+/* When it becomes "Stop Timer," change to red */
+.timer-input button.stop-timer {
+    background-color: #dc3545; /* Red color */
+    border: 1px solid #f8e7ab; /* border style */
+    border-radius: 5px;
+}
+
+.timer-input button:hover {
+    background-color: #0056b3;
+    color: #fff;
+    border:1px solid rgb(239, 203, 142);
+}
+
+.active-timers {
+    background-color: #121111;
+    padding: 20px;
+    margin: 20px;
+    color: #d8cdcd;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+}
+
+.active-timers h2 {
+    margin-bottom: 10px;
+}
+
+.timer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid #ccc; /* Consistent border style */
+    border-radius: 5px;
+    background-color: #fff;
+    color: #0b0a0a; /* Changed text color to black */
+}
+
+.timer button {
+    padding: 5px 10px;
+    background-color: #007BFF; /* Blue color for the button */
+    color: #e2dada;
+    border: 1px solid #d8ca9d; /*  border style */
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions */
+}
+
+.timer button:hover {
+    background-color: #0056b3;
+    color: #fff;
+    border:2px solid rgb(250, 250, 250);
+}
+
+.timer-expired {
+    background-color: #28a745;
+    color: #fff;
+}
+
